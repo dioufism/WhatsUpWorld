@@ -14,6 +14,8 @@
 		DAA562AB2AD8C61100CE2F92 /* WhatsUpWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA562AA2AD8C61100CE2F92 /* WhatsUpWorldTests.swift */; };
 		DAA562B52AD8C61100CE2F92 /* WhatsUpWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA562B42AD8C61100CE2F92 /* WhatsUpWorldUITests.swift */; };
 		DAA562B72AD8C61100CE2F92 /* WhatsUpWorldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA562B62AD8C61100CE2F92 /* WhatsUpWorldUITestsLaunchTests.swift */; };
+		DAA562C42AD8CC1F00CE2F92 /* news.json in Resources */ = {isa = PBXBuildFile; fileRef = DAA562C32AD8CC1F00CE2F92 /* news.json */; };
+		DAA562C72AD8E86700CE2F92 /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA562C62AD8E86700CE2F92 /* Articles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		DAA562B02AD8C61100CE2F92 /* WhatsUpWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsUpWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA562B42AD8C61100CE2F92 /* WhatsUpWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsUpWorldUITests.swift; sourceTree = "<group>"; };
 		DAA562B62AD8C61100CE2F92 /* WhatsUpWorldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsUpWorldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DAA562C32AD8CC1F00CE2F92 /* news.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = news.json; sourceTree = "<group>"; };
+		DAA562C62AD8E86700CE2F92 /* Articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +98,9 @@
 		DAA562982AD8C60B00CE2F92 /* WhatsUpWorld */ = {
 			isa = PBXGroup;
 			children = (
+				DAA562C52AD8E66800CE2F92 /* Model */,
 				DAA562992AD8C60B00CE2F92 /* WhatsUpWorldApp.swift */,
+				DAA562C32AD8CC1F00CE2F92 /* news.json */,
 				DAA5629B2AD8C60B00CE2F92 /* ContentView.swift */,
 				DAA5629D2AD8C61000CE2F92 /* Assets.xcassets */,
 				DAA5629F2AD8C61000CE2F92 /* Preview Content */,
@@ -125,6 +131,14 @@
 				DAA562B62AD8C61100CE2F92 /* WhatsUpWorldUITestsLaunchTests.swift */,
 			);
 			path = WhatsUpWorldUITests;
+			sourceTree = "<group>";
+		};
+		DAA562C52AD8E66800CE2F92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DAA562C62AD8E86700CE2F92 /* Articles.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA562C42AD8CC1F00CE2F92 /* news.json in Resources */,
 				DAA562A12AD8C61000CE2F92 /* Preview Assets.xcassets in Resources */,
 				DAA5629E2AD8C61000CE2F92 /* Assets.xcassets in Resources */,
 			);
@@ -258,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAA5629C2AD8C60B00CE2F92 /* ContentView.swift in Sources */,
+				DAA562C72AD8E86700CE2F92 /* Articles.swift in Sources */,
 				DAA5629A2AD8C60B00CE2F92 /* WhatsUpWorldApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
